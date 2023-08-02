@@ -14,6 +14,7 @@
 		FF384EB32A7A979D00802BCD /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384EB22A7A979D00802BCD /* RandomUsersTests.swift */; };
 		FF384EBD2A7A979D00802BCD /* RandomUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384EBC2A7A979D00802BCD /* RandomUsersUITests.swift */; };
 		FF384EBF2A7A979D00802BCD /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384EBE2A7A979D00802BCD /* RandomUsersUITestsLaunchTests.swift */; };
+		FF384ECC2A7A9B3800802BCD /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384ECB2A7A9B3800802BCD /* UserFetchingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FF384EB82A7A979D00802BCD /* RandomUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF384EBC2A7A979D00802BCD /* RandomUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITests.swift; sourceTree = "<group>"; };
 		FF384EBE2A7A979D00802BCD /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF384ECB2A7A9B3800802BCD /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FF384EA12A7A979A00802BCD /* RandomUsersApp.swift */,
 				FF384EA32A7A979A00802BCD /* ContentView.swift */,
+				FF384ECB2A7A9B3800802BCD /* UserFetchingClient.swift */,
 				FF384EA52A7A979D00802BCD /* Assets.xcassets */,
 				FF384EA72A7A979D00802BCD /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				FF384EA42A7A979A00802BCD /* ContentView.swift in Sources */,
 				FF384EA22A7A979A00802BCD /* RandomUsersApp.swift in Sources */,
+				FF384ECC2A7A9B3800802BCD /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
